@@ -36,4 +36,11 @@
 ---
 
 ## 📊 Геймдизайн и настройка баланса
+
+
 Все параметры боевой системы (скорость анимации ударов, тайминги рывков, радиус атаки врагов, хитбоксы и кривая урона) вынесены в инспектор Unity. Это позволило гибко настраивать сложность и "ощущение от игры" (game feel) в процессе плейтестов без постоянного изменения кодовой базы.
+
+<img width="600" height="322" alt="918819983" src="https://github.com/user-attachments/assets/454da59f-5f8f-4fe0-8727-1f573a2c07a8" />
+<img width="600" height="322" alt="918819971" src="https://github.com/user-attachments/assets/eac330fd-2fd4-4d43-b0b1-5cdc22495273" />
+<img width="600" height="310" alt="918819961" src="https://github.com/user-attachments/assets/f63bb884-aa9f-4020-88b5-3cbd3dfbcf9d" />
+
