@@ -1,4 +1,46 @@
+# Natrezar Wastelands — Unity 2D Action RPG Prototype
+
+A playable technical prototype of an isometric 2D action game, developed to test combat mechanics, control responsiveness, and stat balancing.
+
+---
+
+## 🎮 Core Loop
+Town (Hub) ➔ Dungeon ➔ Combat Encounters ➔ Collecting Demonic Stones ➔ Returning to Town ➔ Progression (Weapon Upgrades).
+
+---
+
+## 🛠 Implemented Mechanics and Systems
+
+### 1. Character and Combat System
+* **Combo System:** Developed a modular character controller (State Machine) for smooth state transitions. Implemented a three-hit melee combo and dashes with invulnerability frames (i-frames).
+* **Ranged Combat:** Added archery mechanics, including the ability to switch between daggers and a bow on the fly.
+* **Status Effects (Debuffs):** Created a system for applying damage-over-time (bleeding) and crowd control (stunning) effects.
+
+### 2. Artificial Intelligence (AI)
+* Programmed two enemy archetypes: melee (closing the gap, attacking) and ranged (maintaining distance, kiting, shooting).
+* Implemented pathfinding, player pursuit logic, and aggressive behavior phases.
+
+### 3. Systems and Progression
+* **Data Persistence:** Built a resource manager to track and save currency (Demonic Stones) across dungeon and town scenes.
+* **User Interface (UI):** Configured dynamic displays for health, stamina, and resource collection counters. ---
+
+## 💻 Tech Stack
+* **Engine:** Unity
+* **Programming Language:** C#
+* **Physics:** Unity 2D Physics
+* **Input:** Unity Input System (supports keyboard and gamepads)
+* **Version Control:** Git / GitHub
+
+---
+
+## 📊 Game Design and Balancing
+
+
+All combat system parameters—such as attack animation speeds, dash timings, enemy attack radii, hitboxes, and damage curves—are exposed in the Unity Inspector. This allowed for flexible adjustments to difficulty and "game feel" during playtesting, without the need to constantly modify the codebase.
+
 # Пустоши Натрезара — Unity 2D Action RPG Prototype
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Играбельный технический прототип изометрического 2D-экшена, созданный для проверки боевых механик, отзывчивости управления и баланса параметров.
 
